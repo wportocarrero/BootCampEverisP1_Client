@@ -16,8 +16,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
   public static final Contact DEFAULT_CONTACT = new Contact(
-      "Rubén Camarena Jáuregui", "https://github.com/rcamarena0796/bootcamp-client-ms.git",
-      "rcamaren@everis.com");
+      "Wilfredo Gabriel Portocarrero Pedroza", "https://github.com/wportocarrero/BootCampEverisP1_Client.git",
+      "wportoca@everis.com");
   public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
       "Client Micro Service", "Micro service used to manage Client CRUD operations",
       "1.0", "urn:tos",
@@ -36,3 +36,4 @@ public class SwaggerConfig {
         .consumes(DEFAULT_PRODUCES_AND_CONSUMES);
   }
 }
+
